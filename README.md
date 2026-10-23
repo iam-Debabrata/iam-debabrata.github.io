@@ -1,63 +1,48 @@
-# DP / Obsidian — Personal Portfolio
+# DP / Obsidian — Senior Engineering & Applied AI Portfolio
 
-**Author:** Debabrata Panda (DP) · © 2026.  
-**Theme:** Obsidian Black / Chrome Glow · lightweight, responsive, accessible.
+**Author:** Debabrata Panda (DP) · Copyright © 2026  
+**Design:** Original Obsidian Black / Chrome theme · responsive, lightweight, accessible.
 
-A complete **static portfolio** built with original HTML, CSS and vanilla JavaScript. No frameworks, packages, API keys, paid hosting, or build steps.
+## Public focus
 
-## Launch locally
+A senior enterprise engineering professional extending industry experience through an M.S. in Artificial Intelligence at the University of North Texas. This portfolio emphasizes engineering impact, current applied-AI research directions, verified career experience and professional connections.
 
-1. Extract this ZIP and open **`index.html`** in Chrome/Edge/Firefox.
-2. Or from this folder run `python -m http.server 8000` and open `http://localhost:8000/`.
-3. Click project filters and project summaries; test mobile navigation and the résumé download.
+### Visible work
 
-## Publish at your FREE GitHub Pages URL
+- Enterprise software reliability, systems integration and engineering productivity.
+- Applied AI experimentation, LLM response evaluation and evidence-grounded systems.
+- Explainable agentic workflows and human-reviewed analysis.
+- Exploratory machine learning, reproducible evaluation and careful interpretation of model results.
 
-GitHub username: **`iam-Debabrata`**. To get a personal root URL, use a repository named **`iam-debabrata.github.io`** (lowercase; GitHub username matching is case-insensitive).
+Research is described by theme rather than project identity. No proprietary employer code, team-only documents, unpublished research materials, private repository URLs or unverifiable performance claims are published.
 
-1. Visit https://github.com/new and create a **PUBLIC** repository with name **`iam-debabrata.github.io`**. Leave it empty (do not add a README).
-2. Upload the *contents* of this extracted portfolio folder (including `index.html`, `styles.css`, `script.js`, `assets/`, and `.nojekyll` if Git preserves it). Do **not** upload the ZIP file itself. Browser upload can skip empty hidden files harmlessly.
-3. Commit files to the `main` branch. On the repository, go to **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**, branch **`main`**, folder **`/(root)`**, and **Save**.
-5. Once GitHub reports deployment complete, visit **https://iam-debabrata.github.io/**. This URL is a *planned address*, **not live until you publish**.
+## Profiles
 
-**Alternative (Git):** `git init && git add . && git commit -m "Launch Obsidian portfolio" && git branch -M main && git remote add origin https://github.com/iam-Debabrata/iam-debabrata.github.io.git && git push -u origin main` (authenticate with GitHub). Then enable Pages as above.
+- GitHub: https://github.com/iam-Debabrata
+- LinkedIn: https://www.linkedin.com/in/idebabratapanda
+- Kaggle: **Not linked until the exact public account is verified.** Do not guess a username.
 
-**If the repo already exists:** don't overwrite blindly; merge/update it carefully.
+## Deployment to GitHub Pages
 
-## Domain terminology
+The repository is intended for free publishing at https://iam-debabrata.github.io/ once the GitHub Pages setting is enabled. In **Settings > Pages**, select **Deploy from a branch**, branch **main**, and directory **/(root)**.
 
-`iam-debabrata.github.io` is a *free GitHub Pages subdomain*. GitHub does not give you ownership of a separate vanity domain like `debabrata.dev`. You can connect a domain you already own later in **Settings → Pages → Custom domain**, with DNS at its registrar. Verify domain ownership before DNS configuration. A separate domain registration can cost money.
+To replace the old version, upload these files to the repository root while preserving the directory structure; replace files with matching names. No framework, package installation, API key, or paid hosting is required. A separate vanity domain requires domain ownership and DNS configuration.
 
-## Files
+## Maintenance and privacy
 
-- `index.html` — all content, structured metadata, accessible markup
-- `styles.css` — custom black/chrome visual theme, responsiveness, reduced-motion support
-- `script.js` — interactive project filters, mobile menu, progress, reveals, email copy
-- `assets/debabrata-portrait.webp` — optimized uploaded headshot (no AI facial edits)
-- `assets/debabrata-portrait-mobile.webp` — smaller mobile portrait
-- `assets/Debabrata_Panda_Public_Resume.pdf` — uploaded resume **with phone number redacted for public publishing**
-- `assets/favicon.svg`, `robots.txt`, `sitemap.xml`, `.nojekyll`
+- Update professional roles and academic research as facts change.
+- Public metrics are role-specific reported estimates, not research findings or company-wide claims.
+- The public downloadable professional profile omits a phone number, academic grades and internal project names.
+- The portfolio intentionally uses anonymous research descriptions. Old Git commits may retain previously published content: revising the current branch alone does not erase Git history, old caches or forks.
+- The professional headshot and contact email are publicly displayed; remove those if your privacy preferences change.
+- Keep project names private unless collaboration and publication permissions are confirmed.
 
-## Source content & privacy
+## Source structure
 
-- Career, education, skill claims, and selected estimates were taken from the supplied résumé.
-- Two research-project summaries were checked against the connected private GitHub repository READMEs (VERITY//LAB and TILT-Agents). The repositories remain private. This site does **not** reveal code, secrets, private URLs, private data, or copyrighted employer material.
-- PMP fraud-detection summary is based on earlier project discussions, but the repository was **not accessible** for re-verification. No performance claim or public repository link is supplied.
-- Public contact includes email and LinkedIn. The uploaded résumé contained a phone number; this deployable copy removes it. Replace the public PDF deliberately only if you want the phone shared with the world.
-- Profile links are extracted from embedded PDF hyperlinks; verify your LinkedIn profile before publishing.
-- `contact` uses a `mailto:` link, not a fake contact form or an email API.
-- No trackers, analytics, cookies, external fonts, or CDNs.
+- `index.html`: homepage, semantic markup, career content, social metadata
+- `styles.css`: original dark-chrome design, responsiveness, reduced-motion support
+- `script.js`: mobile navigation, work filters, progress, copy-email interactions
+- `assets/`: optimized headshot, sanitized downloadable professional profile, favicon
+- `robots.txt` / `sitemap.xml`: search engine metadata
 
-## Update the site
-
-Edit text in `index.html`. To change the accent, edit `--ice`, `--accent`, and `--soft` near the top of `styles.css`. To change GitHub account/domain, update links in `index.html`, `README.md`, `robots.txt`, and `sitemap.xml`. New project cards can reuse `<article class="project-card" data-category="ai">` or `data-category="software"`.
-
-## Before public launch
-
-- Verify career metrics, wording, project ownership/attribution, LinkedIn and email.
-- Confirm you are comfortable publishing the professional portrait and résumé (without phone).
-- Confirm the site title and user-site repository name have no conflicts.
-- Do not publish confidential code or research data from private repositories.
-
-**DP original portfolio code.** This does not imply ownership of third-party models, algorithms, university materials, or employer IP.
+**DP original portfolio.** Academic and employer work is described without claiming exclusive ownership of third-party methods or institutional assets.
